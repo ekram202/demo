@@ -1,0 +1,41 @@
+.about
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1ABC9C;
+    color: white;
+}
+.container2{
+    padding: 150px ;
+}
+.about h1{
+    font-size: 40px; 
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about .text3
+{
+    gap: 30px;
+}
+
+.container2  .line2
+{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin: auto;
+}
+.container2 .line {
+    flex: 1;
+    height: 4px;
+    background-color: white;
+  }
+ .container2 .star {
+    margin: 0 10px; /* مسافة بين الخط والنجمة */
+    color: white; /* لون النجمة */
+  }

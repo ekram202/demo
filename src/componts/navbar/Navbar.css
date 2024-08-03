@@ -1,0 +1,29 @@
+.nav{
+    background-color: #2C3E50;
+    width: 100%;
+    text-transform:uppercase;
+}
+.navs{
+    width: 90%;
+    font-weight: 700;
+}
+
+.active
+{
+    background-color:#1ABC9C;
+    border-radius: 10px;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ul{
+    outline: none;
+    border: none;
+}

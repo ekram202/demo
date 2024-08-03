@@ -1,0 +1,89 @@
+.portflio {
+  padding: 50px;
+}
+
+.portflio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.portflio .line {
+  flex: 1;
+  height: 4px;
+  width: 50px;
+  background-color: #2c3e50;
+}
+.portflio .star {
+  margin: 0 10px; /* مسافة بين الخط والنجمة */
+  color: #2c3e50; /* لون النجمة */
+}
+.portflio .line2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 250px;
+  margin: auto;
+}
+.imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 70px;
+}
+.img1 {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+ img {
+  width: 400px;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #29b197;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.overlay i {
+  font-size: 96px;
+  color: white;
+  padding: 10px;
+}
+.img1:hover .overlay
+{
+    opacity: 1;
+
+}
+
